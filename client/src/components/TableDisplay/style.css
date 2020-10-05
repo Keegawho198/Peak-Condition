@@ -1,0 +1,13 @@
+.table-form{
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: whitesmoke;
+}
+
+tr:hover {background-color:gray;}

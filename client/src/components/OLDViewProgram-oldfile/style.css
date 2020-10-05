@@ -1,0 +1,17 @@
+/* .example-col { 
+  display: inline-block; 
+  vertical-align: top; 
+  padding-right: 20px; 
+  padding-bottom: 20px;
+} */
+
+.Delbtn{
+  background-color: red;
+  color: white;
+}
+
+
+ .btn-red{
+  background-color: red;
+  color: white;
+ }

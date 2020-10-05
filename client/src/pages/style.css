@@ -1,0 +1,573 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/#384349rockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+body {
+  background-color: #f3f2f0;
+}
+
+ h4{
+  color: #384349;
+}
+
+.spec{
+  color: #384349;
+}
+
+#logo {
+  margin-right: 20%;
+  background-blend-mode: lighten;
+  border-radius: 0%;
+  margin-right: 11%;
+  margin-left: -25%;
+  margin-top: -15px;
+}
+
+nav {
+  background-color: #f3f2f0;
+}
+
+#basic-navbar-nav {
+  margin-left: 300px;
+}
+
+.nav-link {
+  color: #384349;
+  font-size: 25px
+}
+
+.navbar-brand {
+  margin-left: 8.3%;
+}
+
+.card-head {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.25rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+  background-color: #c6d1c1;
+  height: 160px;
+  border-radius: 25px;
+}
+
+.hellotext {
+  color: white;
+  margin-left: 63px;
+  margin-top: 16px;
+}
+
+#dashboardImg {
+  border-radius: 50%;
+  height: 180%;
+  margin-top: -23px;
+  margin-left: 174px;
+  position: absolute;
+}
+
+#intake {
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  height: 100px;
+  border-radius: 25px;
+}
+
+/* Background image for signup */
+
+#sport {
+  width: 700px;
+  height: 100%;
+  border-radius: 0%;
+}
+
+#intake {
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  height: 100px;
+  border-radius: 25px;
+}
+
+#caloricDetails {
+  margin-left: 19%;
+}
+
+#daysWorkout {
+  width: 60%;
+  /* margin-left: 22%; */
+  height: 200px;
+  background-color: white;
+  color: #384349;
+  border-radius: 25px;
+  margin-top: 2%;
+}
+
+#daysFood {
+  /* margin-left: 22%;
+  margin-top: 20px; */
+  width: 60%;
+  height: 220px;
+  background-color: white;
+  color: #384349;
+  border-radius: 25px;
+}
+
+.card-projected {
+  margin-left: 15%;
+  margin-top: -18px;
+  height: 430px;
+  border-radius: 15px;
+  border-right-color: #384349;
+  width: 650px;
+  background-color: white;
+}
+
+.dashCard {
+  position: relative;
+  margin: auto;
+  float: center;
+  width: 598px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 16%;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  width: 410px;
+  margin-top: 20px;
+}
+
+#projectBody {
+  margin-left: 35px;
+  height: 280px;
+  border-radius: 16px;
+  width: 67%;
+}
+
+/* img {
+  border-radius: 50%;
+} */
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: whitesmoke;
+}
+
+tr:hover {
+  background-color: gray;
+}
+
+.color {
+  background-color: #c6d1c1;
+  /* box-sizing: border-box;  */
+  /* margin: auto; */
+}
+
+.white {
+  color: white;
+}
+
+#searchBar {
+  margin-left: 35%;
+}
+
+#jumboSearch {
+  background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&w=2000&q=80");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+}
+
+#foodImage {
+  background-image: url("https://www.flavcity.com/wp-content/uploads/2018/05/healthy-meal-prep-recipes-500x500.jpg");
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+#clientHeader {
+  text-align: center;
+  border-bottom: 0.5px solid gray;
+  padding-bottom: 3%;
+}
+
+#heightID {
+  margin-left: 475px;
+  margin-top: -160px;
+  font-size: 1.3rem;
+}
+
+#tileImgID {
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+  /* margin-right: 28px; */
+  margin-left: -70px;
+}
+
+.foodCard {
+  margin-left: -26%;
+}
+
+#chartId {
+  margin-left: 14%;
+  height: 90%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* for chart sizing */
+canvas{
+  margin-top: 2% !important;
+  margin-left: 8% !important;
+  width:90% !important;
+  height:90% !important;
+}
+/* .profile_pic{
+    position: absolute;
+    z-index:2;
+    height: 100%;
+    width: 100%;
+} */
+
+/* 
+
+
+#emailId {
+  margin-left: 400px;
+  font-size: 1.2rem;
+}
+
+#calID {
+  margin-left: 400px;
+  font-size: 1.2rem;
+}
+
+#weightID {
+  margin-left: 400px;
+  margin-top: -50px;
+  font-size: 1.2rem;
+} */
+
+/* .profile_pic{
+  margin-top: 10px;
+} */
+
+.profile_pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  border: 2px solid white;
+  margin-left: 2%;
+  margin-top: 0px;
+}
+
+.title {
+  color: #6e7279;
+  height: 5px;
+  margin-bottom: 55px;
+  margin-left: 205px;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.secondtitle {
+  margin-left: 206px;
+}
+
+/* .title {
+  color: #384349;
+  height: 0px;
+  margin-top: -110px;
+  margin-bottom: 55px;
+  margin-left: 205px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  text-align: left;
+} */
+
+.viewMorebtn {
+  margin-left: 7%;
+  margin-top: 8px;
+  height: 42px;
+}
+
+.tile {
+  overflow: hidden;
+  height: 107px;
+  width: 1180px;
+  position: relative;
+  margin: auto;
+  margin-left: -3%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+p .title {
+  font-size: 1.1rem;
+}
+
+.text-center {
+  align-items: center;
+  /* alignItems: 'center' */
+}
+
+@font-face {
+  src: url(fonts/Moderat-Regular.ttf);
+  font-family: "moderat";
+}
+
+/* Fonts downloaded from http://www.onlinewebfonts.com */
+
+div {
+  font-family: moderat;
+}
+
+.dataTables_wrapper {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.formInput {
+  margin-left: 30px;
+}
+
+.tableDisplay {
+  margin-left: 45px;
+}
+
+/* .topnav {
+  overflow: hidden; */
+
+/* background-color: #333;
+} */
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #384349;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.exerciseImg {
+  width: 150px;
+}
+
+.cardDash {
+  margin-left: 160px;
+}
+
+.hello {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+/* .chartjs-render-monitor {
+  display: block;
+  height: 227px;
+  width: 450px;
+} */
+
+/* .chartjs-size-monitor{
+
+} */
+
+img {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .dataTables_wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #sport {
+    width: 300px;
+    height: 120%;
+    border-radius: 0%;
+    margin-top: 17px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /*master dashboard css  */
+  .profile_pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+    filter: none;
+    margin-left: 0%;
+    margin-top: 0px;
+  }
+  .title {
+    color: #384349;
+    height: 11px;
+    margin-top: -75px;
+    /* margin-bottom: 55px; */
+    margin-left: 105px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 87px;
+    text-align: left;
+  }
+  .viewMorebtn {
+    margin-left: -1%;
+    margin-top: -200px;
+  }
+  .tile {
+    overflow: hidden;
+    height: 160px;
+    width: 315px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 0%;
+    border-radius: 10px;
+  }
+  /* master Dashboard css end */
+  .space {
+    margin-top: 10px;
+  }
+  /* Background image for signup */
+  img #sport {
+    width: 300px;
+    height: 120%;
+  }
+  .modal {
+    size: 300px;
+  }
+  .modal-open {
+    size: 300px;
+  }
+  body {
+    height: auto;
+    width: auto;
+  }
+  .tableDisplay {
+    margin-left: 1px;
+  }
+  .exerciseImg {
+    width: 100px;
+    border-radius: 0%;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  #daysFood {
+    margin-left: 22%;
+    margin-top: 25px;
+    width: 64%;
+    height: 320px;
+    background-color: white;
+    color: #384349;
+    border-radius: 25px;
+  }
+  #daysWorkout {
+    width: 64%;
+    margin-left: 22%;
+    height: 200px;
+    background-color: white;
+    color: #384349;
+    border-radius: 25px;
+    margin-top: 2%;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    /* margin-left: 514px; */
+    /* margin-top: 10px;
+    margin-bottom: 50px; */
+    flex-direction: column;
+    min-width: 17px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, .125);
+  }
+  .cardp {
+    font-size: 50px;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    /* //height: 230px; */
+    height: 191px;
+    min-height: auto;
+    padding: 1.25rem;
+  }
+  #moveThis {
+    margin-left: 10px;
+  }
+  #projected {
+    margin-left: 2%;
+    height: 100%;
+    border-radius: 15px;
+    width: 98%;
+  }
+  /* .chartjs-render-monitor {
+    display: block;
+    height: 200px;
+    width: 215px;
+  } */
+  .dataTables_wrapper {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .Form {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 40px;
+  }
+  .formInput {
+    margin-left: 0px;
+  }
+}
+
+/* @media (min-width: 400px) {
+  .mainNav {
+    display: inline-block;
+  }
+} */
