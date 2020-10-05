@@ -8,6 +8,16 @@ This application will allow trainers to provide a client with a workout program 
 
 Overall, the focus point of this application was to create a applciation that would be able to allow trainers to assign workout programs more easier.
 
+#### To use application use these credentials
+
+User Login Email: user0@email.com Password: 123
+
+Coach login Email: Arnold@email.com Password: 123
+
+This is only for users who have not used the application before and wish view the application without creating a new account. These Credentials are only for testings purposes and are not actual passwords that we use in real life.
+
+Contact Keegan Nair at Keegan.nair@hotmail.com for any questions regarding the application.
+
 
 #### Project Management
 * Progression was tracked on a trello board.
