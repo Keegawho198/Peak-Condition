@@ -22,9 +22,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 //moving to atlas mongodb need this section of code  asdad
-// const uri = mongodb+srv://User:Password@cluster0.jwb3e.mongodb.net/Cluster0?retryWrites=true&w=majority;
-
-mongodb+srv://User:Password@cluster0.jwb3e.mongodb.net/Cluster0?retryWrites=true&w=majority
+//mongodb+srv://User:Password@cluster0.jwb3e.mongodb.net/Cluster0?retryWrites=true&w=majority;
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://user:password123@ds139072.mlab.com:39072/heroku_fk9bgj1g");
